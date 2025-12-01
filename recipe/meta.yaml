@@ -39,6 +39,7 @@ requirements:
     - setuptools
     - tqdm
     - pywavelets
+    - tomli    
 
 test:
   imports:
