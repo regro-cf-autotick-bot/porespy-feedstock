@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 104c82c6942b798ece026d66d947a0a259d43479131580617d9186513e7d2273
 
 build:
-  number: 3
+  number: 4
   skip: true  # [py<38]
   script: {{ PYTHON }} -m pip install . -vv
 
